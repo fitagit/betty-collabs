@@ -72,12 +72,18 @@ h2 {
 .header {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #000;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.img-logo{
+  width: 100px;
+  height: 100px;
 }
 
 .nav {
