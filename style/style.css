@@ -8,8 +8,8 @@ header{
   background-color: #010101;
 }
 
-section{
-  display: flex;
+.head{
+  width: 100%;
 }
 
 .logo{
@@ -19,9 +19,11 @@ section{
 
 nav{
   display: flex;
+  flex-direction: row;
 }
 
 .menu ul{
+  width: 500px;
   display: flex;
 }
 
