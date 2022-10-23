@@ -204,6 +204,10 @@ h2 {
   }
 }
 
+.hero-second{
+  text-align: center;
+}
+
 .stat {
   margin-top: 20px;
 }
@@ -244,8 +248,22 @@ h2 {
 
 @media (min-width: 992px) {
   .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.avatar{
+  width: 250px;
+  height: 250px;
+}
+
+.slider{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.slider img{
+  width: 100%;
 }
 
 .stat .container > div {
@@ -274,6 +292,7 @@ h2 {
 .destination-item {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .destination-item h3 {
