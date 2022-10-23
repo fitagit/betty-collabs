@@ -57,7 +57,7 @@ h2 {
 }
 
 .text-grey {
-  color: #1d1b19;
+  color: #fff;
 }
 
 .container {
@@ -169,7 +169,7 @@ h2 {
 
 @media (min-width: 992px) {
   .hero-title {
-    /* max-width: 832px; */
+    max-width: 832px;
     width: 100%;
   }
 }
