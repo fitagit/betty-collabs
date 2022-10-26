@@ -286,7 +286,6 @@ h2 {
 
 .destination h2 {
   text-align: center;
-  margin-bottom: 91px;
 }
 
 .destination-item {
@@ -301,4 +300,16 @@ h2 {
 
 .destination-item figure {
   margin-right: 33px;
+}
+
+.adventage{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #D9D9D9;
+}
+
+.adventage-img{
+  width: 700px;
 }
